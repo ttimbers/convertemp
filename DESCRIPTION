@@ -4,8 +4,10 @@ Title: Easily convert temperatures
 Version: 0.1.0
 Authors@R: person("Tiffany", "Timbers", role=c("aut", "cre"),
   email = "tiffany.timbers@stat.ubc.ca")
-Description: Easily convert temperatures between any combination of Celsius, Kelvin, and Fahrenheit.
+Description: Easily convert temperatures between any combination of Celsius,
+    Kelvin, and Fahrenheit.
 Depends:
     R (>= 3.2.2)
 License: MIT + file LICENSE
 LazyData: TRUE
+RoxygenNote: 5.0.1
