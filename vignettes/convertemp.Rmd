@@ -15,6 +15,7 @@ Below are some examples to convert from the temperature that water freezes betwe
 
 Convert from Fahrenheit to Kelvin:
 ```{r}
+library(convertemp)
 fahr_to_kelvin(32)
 ```
 
