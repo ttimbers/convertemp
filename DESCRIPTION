@@ -1,9 +1,11 @@
 Package: convertemp
 Type: Package
-Title: What the Package Does (Title Case)
+Title: Easily convert temperatures
 Version: 0.1.0
-Author: Who wrote it
-Maintainer: Who to complain to <yourfault@somewhere.net>
-Description: More about what it does (maybe more than one line)
-License: What license is it under?
+Authors@R: person("Tiffany", "Timbers", role=c("aut", "cre"),
+  email = "tiffany.timbers@stat.ubc.ca")
+Description: Easily convert temperatures between any combination of Celsius, Kelvin, and Fahrenheit.
+Depends:
+    R (>= 3.2.2)
+License: MIT + file LICENSE
 LazyData: TRUE
