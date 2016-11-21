@@ -16,6 +16,6 @@ numeric
 Convert a temperature from Kelvin to Celsius
 }
 \examples{
-#' kelvin_to_celsius(273.15)
+kelvin_to_celsius(273.15)
 }
 

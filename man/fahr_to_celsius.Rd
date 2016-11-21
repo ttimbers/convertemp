@@ -16,6 +16,6 @@ numeric
 Convert a temperature from Fahrenheit to Celsius
 }
 \examples{
-#' fahr_to_celsius(32)
+fahr_to_celsius(32)
 }
 

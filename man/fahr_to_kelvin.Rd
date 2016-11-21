@@ -16,6 +16,6 @@ numeric
 Convert a temperature from Fahrenheit to Kelvin
 }
 \examples{
-#' fahr_to_kelvin(32)
+fahr_to_kelvin(32)
 }
 
