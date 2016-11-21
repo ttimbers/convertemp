@@ -1,0 +1,28 @@
+---
+output: github_document
+---
+
+### convertemp
+Easily convert temperatures between any combination of Celsius, Kelvin, and Fahrenheit.
+
+*note - this package is an example R package for the [UBC MDS program](http://masterdatascience.science.ubc.ca/).*
+
+```{r, echo = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "README-"
+)
+```
+
+### Installation
+
+```{r installation, eval = FALSE}
+devtools::install_github("ttimbers/convertemp")
+```
+  
+### Quick demo
+Convert from Fahrenheit to Kelvin:
+```{r}
+fahr_to_kelvin(32)
+```
