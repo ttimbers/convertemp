@@ -1,0 +1,44 @@
+---
+title: "convertemp: Easily convert temperatures"
+author: "Tiffany Timbers"
+date: "`r Sys.Date()`"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{convertemp: Easily convert temperatures}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+Temperatures are annoying - especially with cross border communication. This package aims to make this easy by giving you all the functions you need to easily convert temperatures between any combination of Celsius, Kelvin, and Fahrenheit.
+
+Below are some examples to convert from the temperature that water freezes between Celsius, Kelvin, and Fahrenheit.
+
+Convert from Fahrenheit to Kelvin:
+```{r}
+fahr_to_kelvin(32)
+```
+
+Convert Kelvin to Celsius:
+```{r}
+kelvin_to_celsius(273.15)
+```
+
+Convert Celsius to Fahrenheit:
+```{r}
+celsius_to_fahr(0)
+```
+
+Convert Fahrenheit to Celsius:
+```{r}
+fahr_to_celsius(32)
+```
+
+Convert Kelvin to Fahrenheit:
+```{r}
+kelvin_to_fahr(273.15)
+```
+
+Convert Celsius to Kelvin:
+```{r}
+celsius_to_kelvin(0)
+```
