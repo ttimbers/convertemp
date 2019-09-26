@@ -9,6 +9,9 @@
 #' @examples
 #' fahr_to_kelvin(32)
 fahr_to_kelvin <- function(temp) {
+  if(!is.numeric(temp)) {
+        stop("Cannot convert temperature for non-numerical values")
+    }
   (temp - 32) * (5 / 9) + 273.15
 }
 
@@ -23,6 +26,9 @@ fahr_to_kelvin <- function(temp) {
 #' @examples
 #' kelvin_to_celsius(273.15)
 kelvin_to_celsius <- function(temp) {
+  if(!is.numeric(temp)) {
+        stop("Cannot convert temperature for non-numerical values")
+    }
   temp - 273.15
 }
 
@@ -37,6 +43,9 @@ kelvin_to_celsius <- function(temp) {
 #' @examples
 #' celsius_to_fahr(0)
 celsius_to_fahr <- function(temp) {
+  if(!is.numeric(temp)) {
+        stop("Cannot convert temperature for non-numerical values")
+    }
   (temp * (9 / 5)) + 32
 }
 
@@ -51,6 +60,9 @@ celsius_to_fahr <- function(temp) {
 #' @examples
 #' fahr_to_celsius(32)
 fahr_to_celsius <- function(temp) {
+  if(!is.numeric(temp)) {
+        stop("Cannot convert temperature for non-numerical values")
+    }
   temp_k <- fahr_to_kelvin(temp)
   kelvin_to_celsius(temp_k)
 }
@@ -66,6 +78,9 @@ fahr_to_celsius <- function(temp) {
 #' @examples
 #' kelvin_to_fahr(273.15)
 kelvin_to_fahr <- function(temp) {
+  if(!is.numeric(temp)) {
+        stop("Cannot convert temperature for non-numerical values")
+    }  
   celsius <- kelvin_to_celsius(temp)
   celsius_to_fahr(celsius)
 }
@@ -81,6 +96,9 @@ kelvin_to_fahr <- function(temp) {
 #' @examples
 #' celsius_to_kelvin(0)
 celsius_to_kelvin <- function(temp) {
+  if(!is.numeric(temp)) {
+        stop("Cannot convert temperature for non-numerical values")
+    }
   fahr <- celsius_to_fahr(temp)
   fahr_to_kelvin(fahr)
 }
