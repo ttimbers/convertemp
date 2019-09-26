@@ -9,7 +9,7 @@
 #' @examples
 #' fahr_to_kelvin(32)
 fahr_to_kelvin <- function(temp) {
-  (temp - 32) * (5 / 9)) + 273.15
+  (temp - 32) * (5 / 9) + 273.15
 }
 
 #' Convert Kelvin to Celsius
